@@ -37,7 +37,7 @@ function NavigationBar() {
         className="body-tertiary"
       >
         <Container>
-          <Navbar.Brand style={{ color: "white" }}>Group 50</Navbar.Brand>
+          <Navbar.Brand style={{ color: "white" }}>Soil Sage</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

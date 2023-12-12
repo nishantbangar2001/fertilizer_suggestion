@@ -37,7 +37,7 @@ export default function Footer() {
             <Col md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <i className="fas fa-gem me-3"></i>
-                Group 50
+                Soil Sage
               </h6>
               <p>
               "Cultivate success with our Fertilizer Recommendation System – your one-stop solution for optimizing crop yields through personalized nutrient advice, making every harvest a triumph."
@@ -116,7 +116,7 @@ export default function Footer() {
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Copyright:
         <a className='text-reset fw-bold' href='#'>
-          Group 50
+          Soil Sage
         </a>
       </div>
     </footer>
