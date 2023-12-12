@@ -4,7 +4,7 @@ import { loginHandle } from "../utils/authAction";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import React from 'react';
-import { Carousel, Col, Container, Row } from 'react-bootstrap';
+
 import {
     MDBBtn,
     MDBContainer,
@@ -13,6 +13,7 @@ import {
     MDBInput
   }
   from 'mdb-react-ui-kit';
+import { Container } from "react-bootstrap";
 
 
 
@@ -139,7 +140,7 @@ const Login= ()=> {
                         <div className="text-center">
                             <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
                             style={{width: '185px'}} alt="logo" />
-                            <h4 className="mt-1 mb-5 pb-1">We are team 50</h4>
+                            <h4 className="mt-1 mb-5 pb-1">We are Soil Sage</h4>
                         </div>
 
                         <p>Please login to your account</p>
@@ -175,25 +176,33 @@ const Login= ()=> {
                                 ):null}
               
             </div>
+            </MDBCol>
 
 
 
-                    </MDBCol>
-
-                    {/* <MDBCol col='6' className="mb-5">
-          <div className="d-flex flex-column  justify-content-center gradient-custom-2 h-100 mb-4">
+                    <MDBCol col='6' className="ripe-malinka-gradient mb-5">
+          <div className="d-flex flex-column justify-content-center h-100 mb-4 gradiant" >
 
             <div className="text-white px-3 py-4 p-md-5 mx-md-4">
               <h4 class="mb-4">We are more than just a company</h4>
-              <p class="small mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p class="small mb-0">
+
+
+Welcome to Soil Sage, your one-stop destination for personalized fertilizer recommendations! We understand that the key to a thriving garden is the right balance of nutrients, and we're here to simplify the process for you.<br></br><br></br>
+
+At Soil Sage, we offer a user-friendly platform that analyzes your specific soil conditions, plant types, and gardening goals to provide tailor-made fertilizer suggestions. Whether you're a seasoned gardener or just starting, our intelligent recommendation system ensures that your plants get the nutrients they need for healthy growth and vibrant blooms.<br></br><br></br>
+
+Explore our comprehensive database of fertilizers, each handpicked for its effectiveness and suitability for various plant species. With our easy-to-use interface, you can input your garden details and receive precise suggestions that cater to the unique needs of your plants.<br></br><br></br>
+
+– Fertilizing Your Garden's Success!
+
+
               </p>
             </div>
 
           </div>
 
-        </MDBCol> */}
+        </MDBCol>
                 </MDBRow>
             </MDBContainer>
         </>
